@@ -1,0 +1,143 @@
+html{
+    background-color: gray;
+    color:seashell;
+    font-size: 22px;
+}
+
+body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    background-color: black;
+
+}
+/* custom header*/
+header{
+    position: fixed;
+    width: 100%;
+    max-width: 1200px;
+    z-index: 10;
+    top: 0px;
+    background-color: black;
+}
+.tete{
+    display: flex;
+    justify-content: space-between;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    
+
+}
+.logo{
+    height: 50px;
+    margin-left: 10px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around; 
+    margin-right: 20px;
+}
+li{
+    margin-left: 30px;
+}
+a{
+    color: seashell;
+}
+
+a:hover{
+    color: red;
+    font-size: 24px;
+}
+
+/* custom section1*/
+#section1{
+    top:60px;
+    position: relative;
+    height: 700px;
+    max-width: 1200px;
+    background: url("ressource/img-mission-background.jpg") no-repeat;
+}
+
+.text1{
+    background: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 350px;
+}
+
+.text1 > h2 , .text1 > h4 {
+    margin: 10px;
+}
+
+
+
+/* custom section2*/
+.section2{
+    width: 100%;
+}
+.titre2{
+    text-align: center;
+}
+.les-images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+#section2 p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+}
+
+#section2 img{
+    height: 200px;
+    width: 300px;
+}
+
+
+/* custom section3*/
+#section3{
+    height: 500px;
+    background: url("ressource/img-locations-background.jpg") no-repeat;
+
+}
+
+#section3 h2{
+    margin: 40px;
+}
+.block{
+    margin: 40px;
+    display: flex;
+    justify-content:center;
+}
+.block3{
+    border: 1px solid white;
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    text-align: center;
+    margin:15px 20px;
+}
+
+/* custom footer*/
+
+footer{
+    border-top: 1px solid seashell;
+    width: 100%;
+}
+h2, h5:nth-child(-n+3) {
+  text-align: center;  
+}
+
+h5:nth-child(4){
+    margin: 20px;
+}
